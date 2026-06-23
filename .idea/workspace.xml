@@ -23,7 +23,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e9fda2b-fb65-4a08-8ab5-9752dfb0e2f0" name="Changes" comment="" />
+    <list default="true" id="3e9fda2b-fb65-4a08-8ab5-9752dfb0e2f0" name="Changes" comment="Initialize project with CMake configuration, Raylib setup, basic main loop, and IDE settings.">
+      <change afterPath="$PROJECT_DIR$/Hero.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hero.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +48,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "denysoryshych"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/denysoryshych/dontfallgame.git",
+    "accountId": "63e37593-28b8-4291-917e-951b217b295a"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="bYu8LK4a" />
   </component>
@@ -81,6 +101,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/oryshych/CLionProjects/untitled2/main.cpp",
     "org.rust.first.attach.projects": "true",
     "to.speed.mode.migration.done": "true",
@@ -88,6 +109,11 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="untitled2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyGame" TARGET_NAME="untitled2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyGame" RUN_TARGET_NAME="untitled2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -104,8 +130,17 @@
       <workItem from="1782053415175" duration="7000" />
       <workItem from="1782053434292" duration="60000" />
       <workItem from="1782053501477" duration="4972000" />
-      <workItem from="1782208451114" duration="217000" />
+      <workItem from="1782208451114" duration="4084000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialize project with CMake configuration, Raylib setup, basic main loop, and IDE settings.">
+      <option name="closed" value="true" />
+      <created>1782208727421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782208727421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +150,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize project with CMake configuration, Raylib setup, basic main loop, and IDE settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize project with CMake configuration, Raylib setup, basic main loop, and IDE settings." />
   </component>
 </project>
